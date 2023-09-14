@@ -1,0 +1,28 @@
+
+import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --orange: #E57C23;
+    --navy: #025464;
+    --mikan: #E8AA42;
+    --white: #F8F1F1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    background-color: #025464;
+    color: #E8AA42;
+}
+
+.copy {
+    height:80vh
+}
