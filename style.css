@@ -12,10 +12,11 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
+    background: var(--navy);
 }
 
 .content {
-    height: 100vh;
+    height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -71,7 +72,7 @@ nav button {
 }
 
 .copy-text{
-    height:78vh;
+    height:80vh;
     font-size:4rem;
     color: #F8F1F1;
     width:50%;
