@@ -18,11 +18,139 @@ body {
     height: 100vh;
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    align-items:center;
     background-color: #025464;
     color: #E8AA42;
 }
 
-.copy {
-    height:80vh
+.links {
+    width:100%;
+    background: #025464;
+    display:flex;
+    justify-content: space-between;
+}
+
+.restaurant-name{
+    margin-left:10vw;
+    display:flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type:none;
+    padding-inline-start:0px;
+    margin-right:10vw;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav button {
+    background: #025464;
+    border: 0px;
+    padding:16px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color:#F8F1F1;
+    height:120px;
+}
+
+.home {
+    background:url(./images/kulamburger.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy-text{
+    height:78vh;
+    font-size:4rem;
+    color: #F8F1F1;
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.copy-text h1 {
+    margin: 0px;
+}
+
+.view-menu {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    border: 0px;
+    border-radius: 12px;
+    padding: 16px;
+    width: 280px;
+    background: #F8F1F1;
+    color:#E57C23;
+    font-weight: bold;
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+footer {
+    padding:16px;
+    color: #E8AA42;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+/* Menu page */
+.menu, .contact{
+    background:#F8F1F1;
+    color:#E57C23;
+    padding:32px;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.menu-card, .contact-card{
+    text-align: center;
+}
+
+.menu-card h1, .contact-card h1{
+    font-size: 2.8rem;
+    border-bottom: 1px dotted #E8AA42;
+    padding-bottom:8px;
+    margin-bottom:12px;
+    margin-top:12px;
+}
+
+.item-name, .item-price, .contact-name{
+    padding:16px;
+    font-size:1.6rem;
+    font-weight:bold;
+}
+
+.item-desc, .contact-desc{
+    padding:8px;
+    font-size: 1.2rem;
+    color:#E8AA42
+}
+
+.item-name{
+    padding-top:24px;
+}
+
+.item-price, .contact-desc{
+    border-bottom: 1px dotted #E8AA42;
+}
+
+.contact-desc {
+    line-height:1.8;
 }

@@ -1,1 +1,3 @@
-import './style.css';
+import { pageLoader } from "./pageLoad";
+
+pageLoader();
